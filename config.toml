@@ -51,7 +51,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Matt Olfat"
-  role = "Doctoral Student in IEOR at UC Berkeley"
+  role = "Doctoral Student in IEOR"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -59,11 +59,11 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "molfat@berkeley.edu"
+  email = "molfat [at] berkeley [dot] edu"
   address = "Etcheverry Grad Offoce"
   office_hours = "Tuesday, 2:30-3:30 and Wednesday 3:00-4:00"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  phone = ""
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
