@@ -19,7 +19,7 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 publication = "Spectral algorithms for computing fair support vector machines"
-publication_short = ""
+publication_short = "Fair SVM"
 
 # Abstract and optional shortened version.
 abstract = "Classi?ers and rating scores are prone to implicitly codifying biases, which may be present in the training data, against protected classes (i.e., age, gender, or race). So it is important to understand how to design classi?ers and scores that prevent discrimination in predictions. This paper develops computationally tractable algorithms for designing accurate but fair support vector machines (SVM’s). Our approach imposes a constraint on the covariance matrices conditioned on each protected class, which leads to a nonconvex quadratic constraint in the SVM formulation. We develop iterative algorithms to compute fair linear and kernel SVM’s, which solve a sequence of relaxations constructed using a spectral decomposition of the nonconvex constraint. Its e?ectiveness in achieving high prediction accuracy while ensuring fairness is shown through numerical experiments on several data sets."
