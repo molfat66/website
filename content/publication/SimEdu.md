@@ -1,10 +1,10 @@
 +++
-title = "FSVM"
-date = 2017-03-15T01:25:50-07:00
+title = "Revolutionizing financial engineering education: Simulation-based strategies for learning"
+date = 2013-03-15T01:25:58-07:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Matt Olfat", "Anil Aswani"]
+authors = ["Matt Olfat", "Roy Hayes", "Mark Maddrik", "Kari Wold"]
 
 # Publication type.
 # Legend:
@@ -18,33 +18,33 @@ authors = ["Matt Olfat", "Anil Aswani"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Spectral algorithms for computing fair support vector machines"
-publication_short = "Fair SVM"
+publication = "Revolutionizing financial engineering education: Simulation-based strategies for learning"
+publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "Classifiers and rating scores are prone to implicitly codifying biases, which may be present in the training data, against protected classes (i.e., age, gender, or race). So it is important to understand how to design classifiers and scores that prevent discrimination in predictions. This paper develops computationally tractable algorithms for designing accurate but fair support vector machines (SVMs). Our approach imposes a constraint on the covariance matrices conditioned on each protected class, which leads to a nonconvex quadratic constraint in the SVM formulation. We develop iterative algorithms to compute fair linear and kernel SVMs, which solve a sequence of relaxations constructed using a spectral decomposition of the nonconvex constraint. Its effectiveness in achieving high prediction accuracy while ensuring fairness is shown through numerical experiments on several data sets."
+abstract = ""
 abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = "fsvm.jpg"
+image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["Fairness in machine learning"]
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Fairness", "SVM", "Supervised Learning"]
+tags = []
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "https://arxiv.org/pdf/1710.05895.pdf"
-url_code = "https://github.com/molfat66/FairML"
+url_pdf = "https://peer.asee.org/22432.pdf"
+url_preprint = ""
+url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
@@ -65,7 +65,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "fsvm.jpg"
+image = ""
 caption = ""
 
 +++

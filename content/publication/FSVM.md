@@ -1,6 +1,6 @@
 +++
-title = "FPCA"
-date = 2018-03-15T01:25:54-07:00
+title = "Spectral algorithms for computing fair support vector machines"
+date = 2017-03-15T01:25:50-07:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -18,15 +18,15 @@ authors = ["Matt Olfat", "Anil Aswani"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Convex formulations for fair principal component analysis"
-publication_short = "Fair PCA"
+publication = "Spectral algorithms for computing fair support vector machines"
+publication_short = "Fair SVM"
 
 # Abstract and optional shortened version.
-abstract = "Though there is a growing body of literature on fairness for supervised learning, the problem of incorporating fairness into unsupervised learning has been less well-studied. This paper studies fairness in the context of principal component analysis (PCA). We first present a definition of fairnessfordimensionalityreduction,andourdefinition can be interpreted as saying that a reduction is fair if information about a protected class (e.g., race or gender) cannot be inferred from the dimensionality-reduced data points. Next, we develop convex optimization formulations that can improve the fairness (with respect to our definition) of PCA and kernel PCA. These formulations are semidefinite programs (SDPs), and we demonstrate the effectiveness of our formulations using several datasets. We conclude by showing how our approach can be used to perform a fair (with respect to age) clustering of health data that may be used to set health insurance rates."
+abstract = "Classifiers and rating scores are prone to implicitly codifying biases, which may be present in the training data, against protected classes (i.e., age, gender, or race). So it is important to understand how to design classifiers and scores that prevent discrimination in predictions. This paper develops computationally tractable algorithms for designing accurate but fair support vector machines (SVMs). Our approach imposes a constraint on the covariance matrices conditioned on each protected class, which leads to a nonconvex quadratic constraint in the SVM formulation. We develop iterative algorithms to compute fair linear and kernel SVMs, which solve a sequence of relaxations constructed using a spectral decomposition of the nonconvex constraint. Its effectiveness in achieving high prediction accuracy while ensuring fairness is shown through numerical experiments on several data sets."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
-image_preview = "fpca.jpg"
+image_preview = "fsvm.jpg"
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -39,11 +39,11 @@ projects = ["Fairness in machine learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Fairness", "PCA", "Unsupervised Learning"]
+tags = ["Fairness", "SVM", "Supervised Learning"]
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "https://arxiv.org/pdf/1802.03765.pdf"
+url_preprint = "https://arxiv.org/pdf/1710.05895.pdf"
 url_code = "https://github.com/molfat66/FairML"
 url_dataset = ""
 url_project = ""
@@ -65,7 +65,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "fpca.jpg"
+image = "fsvm.jpg"
 caption = ""
 
 +++
