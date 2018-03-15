@@ -37,4 +37,4 @@ weight = 5
 
 # Biography
 
-Matt is currently a doctoral student in the Operations Research department at UC Berkeley.
+Matt is currently a doctoral candidate in the Industrial Engineering and Operations Research (IEOR) department at UC Berkeley working on fairness in the context of machine learning. He received his B.S. in Systems Engineering and Mathematics from the University of Virgina in 2014, and his M.S. in IEOR from UC Berkeley in 2016. In between, he spent a year as a bond trader at Wells Fargo.
